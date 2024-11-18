@@ -29,7 +29,7 @@ export default function Header({
             
             <IconButton onClick={onDownload} icon={Download} label="Download markdown" />
           <IconButton
-            onClick={() => window.location.href = 'https://github.com'}
+            onClick={() => window.location.href = 'https://github.com/Smit-Zaveri/Markdown-Editer'}
             icon={Github}
             label="GitHub"
           />
