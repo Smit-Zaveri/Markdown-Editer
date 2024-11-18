@@ -41,21 +41,19 @@ export default function Toolbar({ onAction }: ToolbarProps) {
   };
 
   return (
-    <div className="rounded-lg relative flex items-center space-x-1 p-2 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+    <div className="rounded-lg relative flex flex-wrap items-center justify-start space-x-2 p-2 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
       {tools.map(({ icon, label, action }) => (
         <IconButton
           key={action}
           icon={icon}
           label={label}
           onClick={() => onAction(action)}
-          // className="hover:bg-gray-100 dark:hover:bg-gray-700"
         />
       ))}
       <IconButton
         icon={Smile}
         label="Add Emoji"
         onClick={() => setShowEmojiPicker(!showEmojiPicker)}
-        // className="hover:bg-gray-100 dark:hover:bg-gray-700"
       />
       {showEmojiPicker && (
         <EmojiPicker

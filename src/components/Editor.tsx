@@ -106,7 +106,7 @@ export default function Editor() {
             <button
               onClick={redo}
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
-              title="Redo (Ctrl+Shift+Z)"
+              title="Redo (Ctrl+Y)"
             >
               <Redo2 className="w-5 h-5 text-gray-600 dark:text-gray-300" />
             </button>

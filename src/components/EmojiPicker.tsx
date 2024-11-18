@@ -8,7 +8,7 @@ interface EmojiPickerProps {
 
 export default function EmojiPicker({ onEmojiSelect, onClose }: EmojiPickerProps) {
   return (
-    <div className="absolute z-50 mt-2">
+    <div className="absolute z-50 mt-[550px]">
       <div 
         className="fixed inset-0" 
         onClick={onClose}
