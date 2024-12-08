@@ -1,4 +1,4 @@
-# Markdown-Editer
+# Markdown-Editor
 
 This project is built using [Vite](https://vitejs.dev/), a fast build tool for modern web applications.
 
@@ -17,8 +17,8 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Smit-Zaveri/Markdown-Editer.git
-   cd Markdown-Editer
+   git clone https://github.com/Smit-Zaveri/Markdown-Editor.git
+   cd Markdown-Editor
    ```
 
 2. Install dependencies:
